@@ -16,6 +16,7 @@ network:
   allowed:
     - github.blog
     - github.com
+    - awesome-copilot.github.com
 safe-outputs:
   create-pull-request:
     allowed-files:
@@ -34,13 +35,14 @@ Keep Mona's GitHub Info website current with concise, practical updates from off
 1. Read `notes/mona-notes.md` before drafting anything.
 2. Use the `web-fetch` tool to fetch and read https://github.blog/latest/.
 3. Use the `web-fetch` tool to fetch and read https://github.blog/changelog/.
-4. Use the GitHub repository API tools, not terminal, CLI, or sandboxed commands, to read repository guidance and reference files needed for this task.
-5. Use the `edit` tool to update only `site/content/github-info.md`.
+4. Use the `web-fetch` tool to fetch and read https://awesome-copilot.github.com/workflows/.
+5. Use the GitHub repository API tools, not terminal, CLI, or sandboxed commands, to read repository guidance and reference files needed for this task.
+6. Use the `edit` tool to update only `site/content/github-info.md`.
 
 ## Editorial requirements
 
 - Keep summaries short and practical for developers learning GitHub.
-- Attribute every update sourced from the GitHub Blog or GitHub Changelog with a link to its source.
+- Attribute every update sourced from the GitHub Blog, GitHub Changelog, or Awesome Copilot workflows with a link to its source.
 - Preserve the existing editorial angle and homepage themes.
 - Make changes only when there is a meaningful, well-supported update; otherwise leave the content unchanged.
 
