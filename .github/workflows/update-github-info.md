@@ -7,8 +7,7 @@ permissions:
   contents: read
   pull-requests: read
 engine:
-  id: copilot
-  model: gpt-5-mini
+  id: claude
 tools:
   github:
     toolsets: [repos]
